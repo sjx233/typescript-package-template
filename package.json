@@ -1,7 +1,7 @@
 {
   "name": "typescript-package-template",
-  "version": "0.1.0",
-  "description": "Template for Node.js packages written in TypeScript.",
+  "version": "0.0.0",
+  "description": "Template for Node.js packages in TypeScript.",
   "keywords": [],
   "homepage": "https://github.com/sjx233/typescript-package-template#readme",
   "bugs": "https://github.com/sjx233/typescript-package-template/issues",
@@ -22,11 +22,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "^12.12.17",
-    "@typescript-eslint/eslint-plugin": "^2.11.0",
-    "@typescript-eslint/parser": "^2.11.0",
-    "eslint": "^6.7.2",
-    "typescript": "^3.7.3"
+    "@types/node": "^13.1.1",
+    "@typescript-eslint/eslint-plugin": "^2.13.0",
+    "@typescript-eslint/parser": "^2.13.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.7.4"
   },
   "engines": {}
 }

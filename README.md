@@ -1,3 +1,3 @@
 # typescript-package-template
 
-Template for Node.js packages written in TypeScript.
+Template for Node.js packages in TypeScript.
