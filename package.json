@@ -15,18 +15,17 @@
   },
   "repository": "github:sjx233/typescript-package-template",
   "scripts": {
-    "lint": "eslint --ext .js,.ts src",
+    "lint": "eslint './src/**/*'",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "preversion": "npm run build",
     "postversion": "git push && git push --tags"
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "^14.14.6",
-    "@typescript-eslint/eslint-plugin": "^4.6.1",
-    "@typescript-eslint/parser": "^4.6.1",
-    "eslint": "^7.12.1",
-    "typescript": "^4.0.5"
-  },
-  "engines": {}
+    "@types/node": "^14.14.12",
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/parser": "^4.9.1",
+    "eslint": "^7.15.0",
+    "typescript": "^4.1.3"
+  }
 }
